@@ -1,5 +1,79 @@
 Config = {}
 
+Config.soldsCategories = {
+    drugs = {
+        items = {
+            oxy = {
+                price = 1,
+                info = {
+                    uses = 1,
+                }
+            }
+        },
+        requiredItem = "blackcard",
+    },
+    pistols = {
+        items = {
+            pistol = {
+                price = 1,
+                info = {
+                    uses = 1,
+                }
+            }
+        },
+        requiredItem = "blackcard",
+    },
+    lightTheiftTools = {
+        items = {
+            lockpick = {
+                price = 1,
+                info = {
+                    uses = 1,
+                },
+            },
+            advancedlockpick = {
+                price = 1,
+                info = {
+                    uses = 1,
+                },
+            },
+            electronickit = {
+                price = 1,
+                info = {
+                    uses = 1,
+                },
+            },
+        },
+        requiredItem = "blackcard",
+    },
+}
+Config.Dealers = {
+    {
+        name = "Blackmarket Dealer",
+        model = "g_m_y_mexgang_01",
+        coords = vector4(1275.5, -1710.3, 54.7, 120.0),
+        repRequired = 100,
+        soldsCategories = {
+            ["drugs"] = true,
+            ["pistols"] = true,
+            ["lightTheiftTools"] = true,
+        },
+        items = {
+
+        }
+    },
+    {
+        name = "Underground Supplier",
+        model = "s_m_y_dealer_01",
+        coords = vector4(2331.1, 2570.2, 46.7, 270.0),
+        items = {
+            { name = "lockpick",         price = 250,  amount = 100 },
+            { name = "advancedlockpick", price = 1000, amount = 20 },
+            { name = "electronickit",    price = 2500, amount = 10 },
+        }
+    },
+}
+
 Config.PoliceClothes = {
     male = {
         ['t-shirt'] = {-- T-Shirts

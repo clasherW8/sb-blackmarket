@@ -186,3 +186,21 @@ For bug reports or feature requests:
 * Open a GitHub issue
 * Submit a pull request
 * Contact the repository maintainer
+
+
+---
+
+## Control areas:
+
+* areas that contain people that observe the people or cameras that are viewed by the dealers.
+* when a person enters an observed area while wearing any cops clothing the dealers in the area will be cautious and stop selling to anyone to be careful the police dont catch them.
+* when a person enters an area observed with cameras while wearing any cops clothing, his reputation will decrease, some dealers might refuse to do any deals or business with him any more.
+
+---
+
+## Dealing steps
+
+* to get the first deal you need either to be invited by a trusted buyer or dealer (player). or by interacting with some people in some locations like the jail for example to build your first relationship with any dealer.
+* when you start a deal with someone (npc), you will pay him with cash, and he will walk away, then you will receive a message on your phone after a few minutes to go take the items from the distenation,
+the items either will be in a box in the location or a car that has its key inside it, also you can try to follow the dealer that you payed him money and kill him and take the money back. if you get detected you will be blacklisted from the blackmarket and dealers will no longer want to interact with you. sometimes the dealer will go and meet with someone else and give him the money or take it to the bank.
+* you can get detected either by the cameras or some other dealer that works with the blackmarket.
